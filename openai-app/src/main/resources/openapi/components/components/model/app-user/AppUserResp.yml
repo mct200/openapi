@@ -1,0 +1,18 @@
+type: object
+properties:
+  id:
+    type: integer
+  prenom:
+    type: string
+  nom:
+    type: string
+  appRoles:
+    type: array
+    items:
+      $ref: '../app-role/AppRoleDto.yml'  # Assuming the definition for AppRoleDto is in AppRoleDto.yml
+  email:
+    type: string
+  motDePasse:
+    type: string
+  etat:
+    type: integer

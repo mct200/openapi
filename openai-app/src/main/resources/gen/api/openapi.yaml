@@ -1,0 +1,302 @@
+openapi: 3.0.0
+info:
+  description: Document des API l'application d'admininistration App
+  title: API des classes d'Admin App
+  version: 1.0.0
+servers:
+- url: http://localhost:8080
+tags:
+- description: Role of the different User.
+  name: AppRole
+- description: User of the Admin App.
+  name: AppUser
+- description: Produit Cree par les differents user.
+  name: Produit
+paths:
+  /role:
+    get:
+      operationId: getRoles
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/AppRoleDto'
+                type: array
+          description: SUCCESS
+        "404":
+          description: NOT FOUND
+        "400":
+          description: BAD REQUEST
+      summary: Get All AppRoles
+      tags:
+      - AppRole
+      - listAppRole
+      - Gets
+      x-accepts: application/json
+    post:
+      operationId: createAppRole
+      requestBody:
+        content:
+          application/json:
+            example:
+              nom: Gerant
+            schema:
+              $ref: '#/components/schemas/AppRoleDto'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/AppRoleDto'
+                type: array
+          description: SUCCESS
+        "404":
+          description: NOT FOUND
+        "400":
+          description: BAD REQUEST
+      summary: Create an AppRole
+      tags:
+      - AppRole
+      - create
+      - save
+      - Posts
+      x-content-type: application/json
+      x-accepts: application/json
+  /role/{nom}:
+    delete:
+      operationId: deleteRole
+      responses:
+        "204":
+          description: No Content
+        "404":
+          description: NOT FOUND
+      summary: Delete an AppRole
+      tags:
+      - AppRole
+      - Deletes
+      x-accepts: application/json
+    get:
+      operationId: getAppRoleByName
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppRoleDto'
+          description: SUCCESS
+      summary: find One By his name
+      tags:
+      - AppByNom
+      - RoleByNom
+      - findRole
+      - Gets
+      x-accepts: application/json
+    put:
+      operationId: updateRole
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AppRoleDto'
+      responses:
+        "200":
+          description: SUCCESS
+        "404":
+          description: NOT FOUND
+        "400":
+          description: BAD REQUEST
+      summary: Update an AppRole
+      tags:
+      - AppRole
+      - Puts
+      x-content-type: application/json
+      x-accepts: application/json
+  /user:
+    get:
+      operationId: getUsers
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/AppUserResp'
+                type: array
+          description: SUCCESS
+        "404":
+          description: NOT FOUND
+        "400":
+          description: BAD REQUEST
+      summary: Get All AppUsers
+      tags:
+      - AppUser
+      x-accepts: application/json
+    post:
+      operationId: createAppUSer
+      requestBody:
+        content:
+          application/json:
+            example:
+              prenom: coumba
+              nom: thiam
+              email: coumba@groupeisi.com
+              motDepasse: Passer
+              etat: 0
+              appRoleIds:
+              - 1
+              - 3
+            schema:
+              $ref: '#/components/schemas/AppUserRequest'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/AppUserResp'
+                type: array
+          description: SUCCESS
+        "400":
+          description: BAD REQUEST
+      summary: Create an AppUser
+      tags:
+      - AppUser
+      - create
+      - save
+      - Posts
+      x-content-type: application/json
+      x-accepts: application/json
+  /user/{id}:
+    delete:
+      operationId: deleteRole
+      responses:
+        "200":
+          description: SUCCESS
+        "204":
+          description: No Content
+        "404":
+          description: NOT FOUND
+      summary: Delete an AppRole
+      tags:
+      - AppRole
+      - Deletes
+      x-accepts: application/json
+    get:
+      operationId: getAppUserById
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AppUserResp'
+          description: SUCCESS
+      summary: find One By id
+      tags:
+      - AppUserByID
+      - findUser
+      - Gets
+      x-accepts: application/json
+    put:
+      operationId: updateRole
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AppUserRequest'
+      responses:
+        "200":
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/AppUserResp'
+                type: array
+          description: SUCCESS
+        "404":
+          description: NOT FOUND
+        "400":
+          description: BAD REQUEST
+      summary: Update an AppRole
+      tags:
+      - AppUser
+      - Puts
+      x-content-type: application/json
+      x-accepts: application/json
+components:
+  schemas:
+    AppRoleDto:
+      example:
+        id: 0
+        nom: nom
+      properties:
+        id:
+          description: ID of the role
+          format: int64
+          type: integer
+        nom:
+          description: name of of the role
+          type: string
+      type: object
+    AppUserResp:
+      example:
+        motDePasse: motDePasse
+        id: 0
+        prenom: prenom
+        nom: nom
+        etat: 6
+        appRoles:
+        - id: 0
+          nom: nom
+        - id: 0
+          nom: nom
+        email: email
+      properties:
+        id:
+          type: integer
+        prenom:
+          type: string
+        nom:
+          type: string
+        appRoles:
+          items:
+            $ref: '#/components/schemas/AppRoleDto'
+          type: array
+        email:
+          type: string
+        motDePasse:
+          type: string
+        etat:
+          type: integer
+      type: object
+    AppUserRequest:
+      example:
+        appRoleIds:
+        - 0
+        - 0
+        motDePasse: motDePasse
+        prenom: prenom
+        nom: nom
+        etat: 6
+        email: email
+      properties:
+        prenom:
+          type: string
+        nom:
+          type: string
+        appRoleIds:
+          items:
+            type: integer
+          minItems: 1
+          type: array
+        email:
+          format: email
+          type: string
+        motDePasse:
+          type: string
+        etat:
+          type: integer
+      type: object
+

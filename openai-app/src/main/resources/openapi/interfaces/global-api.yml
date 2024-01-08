@@ -1,0 +1,32 @@
+openapi: "3.0.0"
+
+info:
+  title: API des classes d'Admin App #ca sera utiliser pour les endPoint @RequestMapping("${openapi.aPIDeTest.base-path:/service/api}")
+  version: "1.0.0"
+  description: Document des API l'application d'admininistration App
+
+servers:
+  - url: http://localhost:8080
+
+tags:
+  - name: AppRole
+    description: Role of the different User.
+  - name: AppUser
+    description: User of the Admin App.
+  - name: Produit
+    description: Produit Cree par les differents user.
+
+paths:
+
+  ##############
+  ## API Client ##
+  ##############
+
+  /role:
+    $ref: '../components/api/app-role.yml#/paths/~1role'
+  /role/{nom}:
+    $ref: '../components/api/app-role.yml#/paths/~1role-reference'
+  /user:
+    $ref: '../components/api/app-user.yml#/paths/~1user'
+  /user/{id}:
+    $ref: '../components/api/app-user.yml#/paths/~1user-reference'

@@ -1,0 +1,87 @@
+
+a	java:S112é"FDefine and throw a dedicated exception instead of using a generic one.(÷ÆÄğúÿÿÿÿ
+a	java:S112ø"FDefine and throw a dedicated exception instead of using a generic one.(÷ÆÄğúÿÿÿÿ
+\	java:S112‡"FDefine and throw a dedicated exception instead of using a generic one.(ŞŒ£•
+\	java:S112–"FDefine and throw a dedicated exception instead of using a generic one.(ŞŒ£•
+\	java:S112Ÿ"FDefine and throw a dedicated exception instead of using a generic one.(¡×ú
+a	java:S112ó	"FDefine and throw a dedicated exception instead of using a generic one.(¥²È†ùÿÿÿÿ
+a	java:S112¬"FDefine and throw a dedicated exception instead of using a generic one.(Ò‚Òéüÿÿÿÿ
+E
+java:S3740ù"/Provide the parametrized type for this generic.(£Ì€0
+K
+java:S3740¨"/Provide the parametrized type for this generic.(Şïà…üÿÿÿÿ
+F
+java:S3740•
+"/Provide the parametrized type for this generic.(¤ù¨ù
+t
+java:S2293A"YReplace the type specification in this constructor call with the diamond operator ("<>").(¡ËˆŸùÿÿÿÿ
+o
+java:S2293B"YReplace the type specification in this constructor call with the diamond operator ("<>").(¸ªİê
+p
+java:S2293†"YReplace the type specification in this constructor call with the diamond operator ("<>").(é˜“ë
+p
+java:S2293ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò³Í¾
+p
+java:S2293ú"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ò³Í¾
+o
+java:S2293Ô"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ñ«Œ
+p
+java:S2293Ø"YReplace the type specification in this constructor call with the diamond operator ("<>").(»ş‹ˆ
+h
+java:S1192‚"QDefine a constant instead of duplicating this literal "application/json" 3 times.(ï·æü
+k
+java:S1192—"TDefine a constant instead of duplicating this literal "Content-Disposition" 3 times.(—ƒŞ‘
+D
+java:S1604‡"(Make this anonymous inner class a lambda(¡’ô´ÿÿÿÿÿ
+S	java:S107¿"=Method has 11 parameters, which is greater than 7 authorized.(Š¹Î©
+X	java:S107Ö"=Method has 11 parameters, which is greater than 7 authorized.(“öÛ€úÿÿÿÿ
+\
+java:S1075?"ARefactor your code to get this URI from a customizable parameter.(–Ğù€úÿÿÿÿ
+j
+java:S6201Ì"NReplace this instanceof check and cast with 'instanceof Collection collection'(¯”óÿşÿÿÿÿ
+d
+java:S5361–"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¹Š˜Îüÿÿÿÿ
+]
+java:S6201ä"FReplace this instanceof check and cast with 'instanceof byte[] byte[]'(”ûÀí
+Y
+java:S6201ç"BReplace this instanceof check and cast with 'instanceof File file'(í¹å 
+]
+java:S6201ê"FReplace this instanceof check and cast with 'instanceof String string'(ì˜›ú
+b
+java:S6201ô"FReplace this instanceof check and cast with 'instanceof String string'(–”ş¤şÿÿÿÿ
+i
+java:S3776‘"RRefactor this method to reduce its Cognitive Complexity from 18 to the 15 allowed.(æáÛó
+i
+java:S3776“	"RRefactor this method to reduce its Cognitive Complexity from 30 to the 15 allowed.(øş¥Ä
+Y
+java:S6201‘
+"BReplace this instanceof check and cast with 'instanceof File file'(ğ»ŸÄ
+Y
+java:S6201”
+"BReplace this instanceof check and cast with 'instanceof List list'(µ†€Ö
+^
+java:S6201—
+"BReplace this instanceof check and cast with 'instanceof File file'(Úô›Îıÿÿÿÿ
+]
+java:S6201É
+"FReplace this instanceof check and cast with 'instanceof String string'(²˜ƒ
+
+java:S1186ú
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ôûÿŸøÿÿÿÿ
+
+java:S1186ş
+"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ı¬Â½úÿÿÿÿ
+\
+java:S4830ú
+"@Enable server certificate validation on this SSL/TLS connection.(ôûÿŸøÿÿÿÿ
+\
+java:S4830ş
+"@Enable server certificate validation on this SSL/TLS connection.(ı¬Â½úÿÿÿÿ
+V
+java:S5527Š"?Enable server hostname verification on this SSL/TLS connection.(§¼Éç
+H
+java:S1068H"2Remove this unused "datetimeFormat" private field.(´Â×
+O
+java:S1068I"9Remove this unused "lenientDatetimeFormat" private field.(‹åøÊ
+D
+java:S1068J".Remove this unused "dateLength" private field.(Êà²

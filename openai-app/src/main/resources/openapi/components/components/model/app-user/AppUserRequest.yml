@@ -1,0 +1,18 @@
+type: object
+properties:
+  prenom:
+    type: string
+  nom:
+    type: string
+  appRoleIds:
+    type: array
+    minItems: 1
+    items:
+      type: integer
+  email:
+    type: string
+    format: email
+  motDePasse:
+    type: string
+  etat:
+    type: integer

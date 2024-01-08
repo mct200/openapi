@@ -1,0 +1,108 @@
+openapi: "3.0.0"
+
+info:
+  title: Administration App Roles
+  version: "1.0.0"
+  description: AppRole part of Adminstration app API
+
+servers:
+  - url: http://localhost:8080/
+
+tags:
+  - name: AppRole
+    description: Approle specific data.
+paths:
+  /role:
+    get:
+      tags:
+        - AppRole
+        - listAppRole
+        - Gets
+      summary: Get All AppRoles
+      operationId: getRoles
+      responses:
+        '200':
+          description: SUCCESS
+          content:
+            application/json:
+              schema:
+                type: array  # Return a list of AppRoleDto
+                items:
+                  $ref: '../model/app-role/AppRoleDto.yml'
+        '404':
+          description: NOT FOUND
+        '400':
+          description: BAD REQUEST
+    post:
+      tags:
+        - AppRole
+        - create
+        - save
+        - Posts
+      summary: Create an AppRole
+      operationId: createAppRole
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '../model/app-role/AppRoleDto.yml'
+            example:
+              nom: Gerant
+      responses:
+        '200':
+          description: SUCCESS
+          content:
+            application/json:
+              schema:
+                type: array  # Return a list of AppRoleDto
+                items:
+                  $ref: '../model/app-role/AppRoleDto.yml'
+        '404':
+          description: NOT FOUND
+        '400':
+          description: BAD REQUEST
+  /role-reference:
+    get:
+      tags:
+        - AppByNom
+        - RoleByNom
+        - findRole
+        - Gets
+      summary: find One By his name
+      operationId: getAppRoleByName
+      responses:
+        200:
+          description: SUCCESS
+          content:
+            'application/json':
+              schema:
+                $ref: '../model/app-role/AppRoleDto.yml'
+    put:
+      tags:
+        - AppRole
+        - Puts
+      summary: Update an AppRole
+      operationId: updateRole
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '../model/app-role/AppRoleDto.yml'
+      responses:
+        '200':
+          description: SUCCESS
+        '404':
+          description: NOT FOUND
+        '400':
+          description: BAD REQUEST
+    delete:
+      tags:
+        - AppRole
+        - Deletes
+      summary: Delete an AppRole
+      operationId: deleteRole
+      responses:
+        '204':
+          description: No Content
+        '404':
+          description: NOT FOUND

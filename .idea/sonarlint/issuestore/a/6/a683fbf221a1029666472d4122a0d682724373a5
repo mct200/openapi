@@ -1,0 +1,32 @@
+
+E
+java:S3740Q"/Provide the parametrized type for this generic.(»»¦×
+E
+java:S3740Q"/Provide the parametrized type for this generic.(»»¦×
+E
+java:S3740R"/Provide the parametrized type for this generic.(Ü­
+Q
+java:S1141ı"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+g
+java:S1301´"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+g
+java:S1301Ş"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+g
+java:S1301Š"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+g
+java:S1301Á"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+g
+java:S1301÷"KReplace this "switch" statement by "if" statements to increase readability.(¿Õº™ùÿÿÿÿ
+u
+java:S1488>"_Immediately return this expression instead of assigning it to the temporary variable "builder".(†Ç½
+t
+java:S1171Y"YMove the contents of this initializer to a standard constructor or to field initializers.(ÒÌâ–øÿÿÿÿ
+R	java:S125›"<This block of commented-out lines of code should be removed.(¹ÂÙ‡
+=
+java:S1168·"&Return an empty array instead of null.(¥¹ï
+D
+java:S1874Ë".Remove this use of "<init>"; it is deprecated.(’ÑÍv
+U
+java:S1144B":Remove this unused private "getDiscriminatorValue" method.(Çùââùÿÿÿÿ
+R
+java:S1144Q"<Remove this unused private "getClassByDiscriminator" method.(»»¦×

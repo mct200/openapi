@@ -1,0 +1,97 @@
+
+o
+java:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+o
+java:S2293n"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+t
+java:S2293o"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+t
+java:S2293p"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïë–ùÿÿÿÿ
+t
+java:S2293q"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+p
+java:S2293ì"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+p
+java:S2293í"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+u
+java:S2293î"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+u
+java:S2293ï"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïë–ùÿÿÿÿ
+u
+java:S2293ğ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+p
+java:S2293â"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+p
+java:S2293ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+u
+java:S2293ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+u
+java:S2293å"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïë–ùÿÿÿÿ
+u
+java:S2293æ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+p
+java:S2293Û"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+p
+java:S2293Ü"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+u
+java:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+u
+java:S2293Ş"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïë–ùÿÿÿÿ
+u
+java:S2293ß"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+p
+java:S2293Ù"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+p
+java:S2293Ú"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+u
+java:S2293Û"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+u
+java:S2293Ü"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïë–ùÿÿÿÿ
+u
+java:S2293İ"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+d
+java:S1192€"MDefine a constant instead of duplicating this literal "Content-Type" 5 times.(¾’Å˜
+b
+java:S1192x"GDefine a constant instead of duplicating this literal "Accept" 5 times.(˜À°Ãûÿÿÿÿ
+l
+java:S1192t"QDefine a constant instead of duplicating this literal "application/json" 4 times.(şÿÑëşÿÿÿÿ
+k	java:S117Z"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÑâôĞùÿÿÿÿ
+g	java:S117ˆ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãôÅı
+g	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä‰Šá
+l	java:S117Ù"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’˜ó¡øÿÿÿÿ
+f	java:S117‡"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óƒ‚.
+l	java:S117¼"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¨¸Œüÿÿÿÿ
+l	java:S117Ï"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºçÛîşÿÿÿÿ
+g	java:S117ı"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çô—‘
+f	java:S117µ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–î+
+g	java:S117È"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(â÷±í
+g	java:S117ö"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(°şÕ
+g	java:S117±"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¬—Ãû
+g	java:S117Æ"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“—¢†
+g	java:S117ô"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(‰Ë²
+g	java:S117¯"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âåİ
+€
+java:S1488‹"dImmediately return this expression instead of assigning it to the temporary variable "localVarCall".(„²ï±úÿÿÿÿ
+€
+java:S1488Š"dImmediately return this expression instead of assigning it to the temporary variable "localVarCall".(ÖÁØ‘ûÿÿÿÿ
+€
+java:S1488€"dImmediately return this expression instead of assigning it to the temporary variable "localVarCall".(ÀŒ€—ÿÿÿÿÿ
+€
+java:S1488ù"dImmediately return this expression instead of assigning it to the temporary variable "localVarCall".(•×î´şÿÿÿÿ
+€
+java:S1488÷"dImmediately return this expression instead of assigning it to the temporary variable "localVarCall".(’°„“ûÿÿÿÿ
+W
+java:S1075k"ARefactor your code to get this URI from a customizable parameter.(Ìµ÷³
+]
+java:S1075ê"ARefactor your code to get this URI from a customizable parameter.(¯Û“Ëıÿÿÿÿ
+i	java:S100Ï"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºçÛîşÿÿÿÿ
+X
+java:S1075à"ARefactor your code to get this URI from a customizable parameter.(ˆõÇ
+d	java:S100ı"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çô—‘
+i	java:S100‘"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÔËêüÿÿÿÿ
+d	java:S100¢"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òõÄ
+c	java:S100µ"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–î+
+X
+java:S1075Ù"ARefactor your code to get this URI from a customizable parameter.(Ìµ÷³
+]
+java:S1075×"ARefactor your code to get this URI from a customizable parameter.(¯Û“Ëıÿÿÿÿ

@@ -1,0 +1,40 @@
+
+o
+java:S2293j"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+o
+java:S2293k"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+t
+java:S2293l"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+t
+java:S2293m"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïë–ùÿÿÿÿ
+t
+java:S2293n"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+p
+java:S2293à"YReplace the type specification in this constructor call with the diamond operator ("<>").(çïéÛ
+p
+java:S2293á"YReplace the type specification in this constructor call with the diamond operator ("<>").(ª‚Èâ
+u
+java:S2293â"YReplace the type specification in this constructor call with the diamond operator ("<>").(–¦…üÿÿÿÿ
+u
+java:S2293ã"YReplace the type specification in this constructor call with the diamond operator ("<>").(Ïë–ùÿÿÿÿ
+u
+java:S2293ä"YReplace the type specification in this constructor call with the diamond operator ("<>").(ÕòÅıÿÿÿÿ
+k	java:S117W"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(’˜ó¡øÿÿÿÿ
+f	java:S117…"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(óƒ‚.
+l	java:S117º"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¯¨¸Œüÿÿÿÿ
+l	java:S117Í"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºçÛîşÿÿÿÿ
+g	java:S117û"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çô—‘
+f	java:S117³"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–î+
+€
+java:S1488ˆ"dImmediately return this expression instead of assigning it to the temporary variable "localVarCall".(ÖÁØ‘ûÿÿÿÿ
+€
+java:S1488ş"dImmediately return this expression instead of assigning it to the temporary variable "localVarCall".(ÀŒ€—ÿÿÿÿÿ
+\
+java:S1075h"ARefactor your code to get this URI from a customizable parameter.(¯Û“Ëıÿÿÿÿ
+i	java:S100Í"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºçÛîşÿÿÿÿ
+X
+java:S1075Ş"ARefactor your code to get this URI from a customizable parameter.(ˆõÇ
+d	java:S100û"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(çô—‘
+i	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(êÔËêüÿÿÿÿ
+d	java:S100 "NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(òõÄ
+c	java:S100³"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Á–î+

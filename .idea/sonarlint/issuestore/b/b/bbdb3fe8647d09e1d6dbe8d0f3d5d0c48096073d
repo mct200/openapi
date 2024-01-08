@@ -1,0 +1,20 @@
+
+W
+java:S1854*"<Remove this useless assignment to local variable "response".(¤ÊÜüÿÿÿÿ
+H
+java:S1481*"-Remove this unused "response" local variable.(¤ÊÜüÿÿÿÿ
+H
+java:S1135+"2Complete the task associated to this TODO comment.(‰Îœ‡
+H
+java:S11356"2Complete the task associated to this TODO comment.(‰Îœ‡
+c	java:S100?"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Şı 
+H
+java:S1135A"2Complete the task associated to this TODO comment.(‰Îœ‡
+W
+java:S1854K"<Remove this useless assignment to local variable "response".(Œ€©‰ûÿÿÿÿ
+H
+java:S1481K"-Remove this unused "response" local variable.(Œ€©‰ûÿÿÿÿ
+H
+java:S1135L"2Complete the task associated to this TODO comment.(‰Îœ‡
+H
+java:S1135X"2Complete the task associated to this TODO comment.(‰Îœ‡
